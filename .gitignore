@@ -1,0 +1,9 @@
+#.env
+node_modules/
+
+#bulk upload files
+tmp/csv/
+
+#log files
+logs/
+

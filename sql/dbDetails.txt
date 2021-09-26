@@ -1,0 +1,31 @@
+db: tradings_webapp
+user: tradings_webapp
+pass: 8}lHCkT4H0Lo
+
+TradingSeek_00
+
+last address: (79,'Abros Place','Russley',NULL,8053,172.569808,-43.491182,'street','Abros Place, Russley, Christchurch',20,'Edit')
+
+
+
+CREATE TABLE `faqs` (
+  `Id` int(255) NOT NULL AUTO_INCREMENT,
+  `postedUserId` int(255) DEFAULT NULL,
+  `question` varchar(255) DEFAULT NULL,
+  `answer` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4;
+
+`description` longtext DEFAULT '\'This business has not set its description yet!!\'',
+  `isInsured` varchar(15) DEFAULT 'FALSE',
+  `isCertified` varchar(15) DEFAULT 'FALSE',
+  `isOnTimeDelievery` varchar(15) DEFAULT 'FALSE',
+  `businessAddress` varchar(255) DEFAULT NULL,
+  `landline` varchar(25) DEFAULT NULL,
+  `website` varchar(255) DEFAULT NULL,
+  `isTopRated` varchar(15) DEFAULT 'FALSE',
+  `isMostHired` varchar(15) DEFAULT 'FALSE',
+  `isVerifiedBadge` varchar(15) DEFAULT 'FALSE',
+  `businessEmail` varchar(255) DEFAULT NULL,
+  `openingHours` longtext DEFAULT NULL,
+  `socialLinks` longtext DEFAULT NULL,

@@ -1,0 +1,5 @@
+run-script: 
+updateQueryFile.sql in phpmyadmin
+
+set this
+SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
